@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* HEADER */
 .header {
   background: rgba(0,0,0,0.75);
@@ -38,7 +37,7 @@ nav a.active {
 
 /* BANNER */
 .banner {
-  background: url("../fibocs.jpg") center/cover no-repeat;
+  background: url("fibocs.jpg") center/cover no-repeat;
   height: 350px;
   display: flex;
   align-items: center;
@@ -120,3 +119,5 @@ nav a.active {
   margin-top: 50px;
   font-size: 14px;
 }
+
+/*   mobile view */
