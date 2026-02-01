@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact Us - Fynbosys</title>
+ 
   <style>
     body {
       margin: 0;
@@ -15,42 +16,39 @@
 
     /* Header / Navigation - same style as other pages */
     header {
-      background: #000 url('voice.jfif') center/cover no-repeat;
-      position: relative;
-      height: 220px;
-    }
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 
-    .nav-bar {
-      background: rgba(0,0,0,0.65);
-      padding: 15px 0;
-      text-align: right;
-    }
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+}
 
-    .nav-bar a {
-      color: white;
-      text-decoration: none;
-      margin: 0 18px;
-      font-size: 1.1em;
-    }
+.logo {
+  height: 40px;
+  margin-right: auto;
+}
 
-    .nav-bar a:hover {
-      text-decoration: underline;
-    }
+.nav ul {
+  display: flex;
+  list-style: none;
+}
 
-    .logo {
-      position: absolute;
-      top: 25px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 3em;
-      color: white;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-
-    .logo span {
-      color: #c8102e; /* red for the dots/emphasis */
-    }
+.nav ul li {
+  color: rgb(237, 231, 231);
+  margin-left: 25px;
+  cursor: pointer;
+}
+.nav a{
+color: #fff;
+}
+.nav ul .active {
+  color: #4fa3ff;
+}
 
     /* Main Content */
     .content {
@@ -142,21 +140,24 @@
       text-decoration: none;
     }
   </style>
+   
 </head>
 <body>
 
-  <header>
-    <div class="logo"></div>
-    <div class="nav-bar">
-      <a href="#">Home</a>
-      <a href="#">About us</a>
-      <a href="#">Services</a>
-      <a href="#">Products</a>
-      <a href="#">Clients</a>
-      <a href="#">Careers</a>
-      <a href="#" style="color: #00ff99; font-weight: bold;">Contact us</a>
-    </div>
-  </header>
+<header>
+  <div class="nav">
+    <img src="fybo.jfif" class="logo">
+    <ul>
+       <li><a href="home.html">home</a></li>
+      <li><a href="aboutus.html"> About us</a></li>
+      <li><a href="service.html"> Service</a></li>
+      <li><a href="products.html">products</a></li>
+      <li><a href="clients.html">clients</a></li>
+      <li><a href="careers.html">careers</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </div>
+</header>
 
   <div class="content">
     <h1>Contact</h1>

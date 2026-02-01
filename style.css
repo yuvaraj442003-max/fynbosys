@@ -27,7 +27,9 @@ header {
   display: flex;
   list-style: none;
 }
-
+.nav a{
+color: #fff;
+}
 .nav ul li {
   color: rgb(237, 231, 231);
   margin-left: 25px;
@@ -125,4 +127,99 @@ footer {
   color: #aaa;
   text-align: center;
   padding: 20px;
+}
+
+/* =====================
+   MOBILE VIEW (≤600px)
+   ===================== */
+@media (min-width: 600px) {
+
+  /* HEADER & NAV */
+  header {
+    position: relative;
+  }
+
+  .nav {
+    flex-direction: column;
+    padding: 12px 16px;
+  }
+
+  .logo {
+    margin: 0 0 10px 0;
+    height: 35px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav ul li {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: auto;
+    padding: 110px 15px 50px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    width: 100%;
+    font-size: 14px;
+    margin: 15px auto;
+  }
+
+  /* HIGHLIGHT STRIP */
+  .highlight {
+    padding: 20px 15px;
+    font-size: 13px;
+  }
+
+  /* MAIN CONTENT */
+  .content {
+    flex-direction: column;
+    padding: 35px 15px;
+    gap: 35px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  /* CARDS */
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  /* SERVICES */
+  .service-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .service-box span {
+    margin: 0 0 8px 0;
+    font-size: 26px;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 12px;
+    padding: 12px;
+  }
 }
