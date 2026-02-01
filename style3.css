@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 10;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a.active {
+    color: #4aa3ff;
+}
+
+/* BANNER */
+.banner {
+    background: url("rocky2.jfif") no-repeat center/cover;
+    height: 300px;
+    position: relative;
+    padding: 120px 40px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    color: #000;
+}
+
+.green-line {
+    height: 8px;
+    background: linear-gradient(to right, #2ca02c 60%, #b7ddb7 40%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    padding: 50px 40px;
+    gap: 40px;
+}
+
+.text {
+    width: 55%;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background: #2c2c2c;
+    color: #aaa;
+    padding: 20px 40px;
+    font-size: 13px;
+}

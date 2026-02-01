@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #2e2e2e;
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 15px;
+}
+
+nav a.active {
+  color: #2fa4ff;
+}
+
+/* BANNER */
+.banner {
+  height: 260px;
+  background: url("bus.jfif") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  color: #000;
+}
+
+/* GREEN LINE */
+.green-line {
+  height: 8px;
+  background: #3aa63a;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  padding: 50px 60px;
+}
+
+.left {
+  width: 65%;
+}
+
+.left h2 {
+  font-size: 24px;
+  margin: 25px 0 10px;
+}
+
+.left p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.right {
+  width: 35%;
+  padding-left: 30px;
+}
+
+.right img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+  background: #2e2e2e;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
